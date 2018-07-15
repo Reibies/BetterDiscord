@@ -1,0 +1,169 @@
+//META{"name":"DeepwebOrgy","description":"what","author":"Moobit","version":"1.0.0"}*//{}
+/*****//*Body*//*****/
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+::-webkit-scrollbar{
+display:none}
+
+
+
+/*body{
+   font-family: 'roboto', sans-serif;
+}*/
+
+
+* {
+
+  -webkit-mask: unset !important;
+  mask: unset !important;
+}
+
+
+/****//*SNIPITS*//****/
+/*transparency patch*/
+.layers, .layer, .container-RYiLUQ,
+.contentSelectedText-3j5CXt{ 
+    background: transparent !important; 
+}
+
+
+
+
+/**//*Dislay:none*//**/
+.friends-online,
+.topic-1KFf6J.expandable-1er6r1::before,
+.noWrap-v6g9vO > svg:nth-child(1),
+.noWrap-v6g9vO > svg:nth-child(3),
+.noWrap-v6g9vO > svg:nth-child(7),
+#bda-qem-favourite,#bda-qem-twitch,
+.members-1998pB-loading,
+.header-toolbar button:nth-child(3),
+.header-toolbar button:nth-child(7),
+.header-toolbar button:nth-child(1){
+    display:none!important
+}
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: transparent!important;
+}
+
+
+/**//*Acessability*//**/
+/*nitro tag*/
+.avatar-large[style*="/a_"]+.comment .username-wrapper:after {
+    background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
+    float:right;
+    content: '';
+    width: 20px;
+    height: 16px;
+}
+
+/*Renamer tag edits*/
+
+.members-1998pB .member .member-username {
+    flex-wrap: wrap;
+}
+.members-1998pB .member .member-username-inner {
+    flex-basis:100%;
+}
+.members-1998pB .renamer-tag {
+    margin-left: 0;
+}
+
+
+
+/****//*STYLE*//****/
+
+
+
+/*guilds*/
+.guild-inner{
+	border-radius: 10% / 30px !important;
+}
+.guilds-wrapper .guilds .guild .guild-inner{
+background-color: rgba(0,0,0,.6) }
+
+.guilds-wrapper .guilds-error {
+    border: rgba(0,0,0,.3) solid 3px!important;
+	border-radius:4px!important;
+    background-color: rgba(0,0,0,0) !important;
+	color: rgba(0,0,0,.3) !important;
+}
+.guilds-wrapper .guilds-error:hover{
+    border: rgba(0,0,0,.9) solid 3px!important;
+	color: rgba(150,50,50,.5) !important;}
+.tooltip.tooltip-red.tooltip-right{
+display:none!important}
+
+.guilds-wrapper .guilds-add{
+border-radius:4px;
+background: rgba(0,0,0,0);
+color: rgba(0,0,0,0.3);
+border: rgba(0,0,0,0.3) solid 3px
+}
+.guilds-wrapper .guilds-add:hover{
+border: rgba(0,0,0,0.9) solid 3px}
+
+.guild-inner{
+    transition: all ease .35s;
+}
+.memberOffline-2lN7gt,
+.foldercontainer > div:not(:hover),
+.members-1998pB:not(:hover) .member.member-status-offline{
+    filter: saturate(20%) opacity(50%)!important;
+}
+.guild.selected .guild-inner{
+    filter: saturate(1) opacity(100%)!important;
+}
+
+.guild-inner:not(:hover){
+    filter:  opacity(40%)!important;
+}
+
+
+/*Kill Circles*/
+.membersWrap-2h-GB4 .avatar-small{
+    border-radius:0px 13px 0px 13px!important;
+}
+.innerNoAutocomplete-kaUXJZ{
+    border-radius:0px 0px 13px 13px!important;
+}
+
+
+.guilds-wrapper .guilds 
+.guild.selected:before{
+    z-index:1;
+    content:"@";
+    margin-left:9px;
+    margin-top:-25px;
+    border-radius:20px20px20px20px;
+    height:10px;
+
+}
+.guilds-wrapper .guilds 
+.guild.unread:before{
+    border-radius:0px 0px 30px 30px;
+    height: 40px;
+    filter: opacity(40%);
+    width: 4px;
+    margin-left: 8px;
+    margin-top: -24px !important;  
+    content: "!";
+}
+
+
+
+/*****CHATS*****/
+.message-group .old-h2{
+background: linear-gradient(to right, #111 , transparent);
+padding:1.5px;
+padding-left:2px;
+border-radius:3px}
+
+
+
+
+
+
+
+
+

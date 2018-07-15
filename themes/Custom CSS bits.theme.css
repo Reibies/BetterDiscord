@@ -1,0 +1,238 @@
+//META{"author":"Reimoo","name":"Custom CSS replace","description":"It's just my Custom CSS, you know that.","version":"6.9"}*//
+
+
+@import url('https://fonts.googleapis.com/css?family=Andika');
+
+* {
+    font-family: 'Andika' !important;
+ }
+ .message-group .comment .markup{
+	font-family: 'dyslexie' !important;
+	font-size: .97rem;
+	line-height: 1.37rem;
+	background-color: white;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 1px hsla(0,0%,100%, .3);
+}
+
+
+/****//**Variables**//****/
+:root{
+	--rs-spacing: 1px!important;
+    --rs-width: 2px!important;
+    --rs-popout-spacing: 10px!important;
+    --rs-popout-width: 20px!important;
+    --rs-profile-spacing: 3px!important;
+    --rs-profile-width: 4px!important;
+    --rs-online-color: #64846b!important;
+    --rs-idle-color: #bf944c!important;
+    --rs-dnd-color: #9a3636!important;
+    --rs-offline-color: #202225!important;
+    --rs-invisible-color: #36393e!important;
+    --rs-streaming-color: #5f5175!important;
+}
+
+/*title bar hover to show*/
+.titleWrapper-1l0xT9:not(:hover) {
+    z-index: 0 !important;
+    margin-top: -40px;
+}
+
+/**//*Accessibility*//**/
+
+/*emoji picker*/
+#bda-qem-line-container
+{
+    height: 926px!important;
+}
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,
+.emojiPicker-3m1S-j .scroller-3vODG7{
+    height: 850px
+	}
+
+.emojiItem-109bjA:hover{
+    transform: scale(1.4);
+	transition: transform ease-in 0.17s;
+}
+
+
+/*DM Button*/
+.guild-inner{
+    background-color: rgba(0,0,0,0) !important;    
+}
+
+.guilds-wrapper .guilds .home-icon:hover {
+    background-image: url("http://bestanimations.com/Signs&Shapes/Hearts/animatedhearts/pixel-heart-pink-animated-gif.gif"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    height: 50px; 
+    width: 50px; 
+}
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
+}
+
+/*Big Emoji in Chat**/
+.emoji
+ {
+    transition:.47s ease;
+}
+ .emoji:active{
+    /*object-fit: scale-down;
+    image-rendering: pixelated;*/
+    width: 128px;
+    height: 128px;
+}
+.icon-3ZzoN7{
+    /*object-fit: scale-down;
+    image-rendering: pixelated;*/
+    width: 45px;
+    height: 45px;
+}
+.mention .emoji{
+    width:22px!important;
+    height:22px!important
+}
+.member-username:hover .emoji{
+height:10px!important;
+width:10px!important;
+}
+.user-name .emoji{
+    min-width:15px !important;
+    min-height:15px !important;
+    max-width:15px !important;
+    max-height:15px !important;
+    vertical-align: 0px !important
+}
+
+
+
+
+
+.renamer-tag, 
+.role-tag,
+.kawaii-tag,
+.bot-tag,
+.user-tag,
+.chat-tag{
+    line-height:15px !important;
+    font-size: 10px!important;
+    padding: 1px 4px 1px 4px !important;
+    border-radius: 2px !important;
+    margin-left: 2px !important ;
+    vertical-align: baseline!important;
+    bottom: 1px !important;
+    margin-right: 2px!important;
+    font-family:ubuntu!important;
+    font-size: 10px!important;
+    font-weight:500!important;
+    border:none!important;
+    
+}
+
+
+
+.theme-dark .message-group .mentioned .message-text {
+    background: 0,0,0,0;
+    border: 1px  dashed yellow;
+}
+
+/*[style*='212652324156342273'] + .comment .username-wrapper .user-name,
+[style*='212652324156342273'] + .comment .markup {
+    animation: rainbow 7s ease-in-out infinite normal;}
+
+@keyframes rainbow {
+    from{
+    filter: hue-rotate(0deg);
+    }
+    to{
+    filter: hue-rotate(360deg);
+    }
+}
+
+/*Enlarge avatars when hovering them in the message area, makes them circular. */
+ .avatar-large {
+   width           : 40px !important;
+   height          : 60px !important;
+   border-radius: 0%;  /*change to 0% if you would like square avatars*/
+   background-size : cover !important;
+   transition      : all .9s ease !important;
+   opacity         : 1 !important;
+}
+.message-group.hide-overflow{
+padding:14px;}
+
+ /*Change the pixel (px) amount to resize the size of avatars upon hovering them, I would suggest keeping the width and height pixel amounts the same*/
+ .avatar-large:hover {
+   width           : 100px !important;
+   height          : 100px !important;
+}
+
+
+/*Halloween avatar edit
+
+.chat .avatar-large:hover{
+	opacity: 1 !important;
+}
+.avatar-large{ 
+    border: 2px solid black;
+	z-index:1;
+}
+
+.avatar-large:before {
+    z-index:-1;
+    content: " " ;
+    background: url("https://i.imgur.com/akkWA0p.png")no-repeat 0 ;
+    background-size: 100%;
+    width:80px;
+    height:100px;
+    top: -85%;
+    left:-20px;
+    position: absolute;
+}
+.avatar-large:before::hover{
+z-index:2}
+.avatar-large:after {
+    content: " " ;
+    background: url("https://i.imgur.com/qDkO9Q5.png")no-repeat 0 ;
+    background-size: 100%;
+    width:50px;
+    height:50px;
+    top: -80%;
+    left:-10%;
+    position: absolute;
+}
+.hide-overflow {
+    overflow: visible !important;
+}
+*/
+
+
+
+[style*='192018947812491264'] + .comment .username-wrapper .user-name,
+[style*='192018947812491264'] + .comment .markup {
+    color: rgb(137, 201, 190)!important;}
+
+
+/*KNS colors*/
+[style*="color:rgb(46, 204, 113);"] {
+    color: rgb(97, 189, 109) !important;
+}
+
+[style*="color: rgb(231, 76, 60);"] {
+  color: rgb(212, 126, 126) !important
+}
+
+[style*="color: rgb(52, 152, 219);"] {
+    color: rgb(100, 183, 216) !important
+}
+
+[style*="color: rgb(155, 89, 182);"] {
+    color: rgb(172, 129, 189) !important
+}
+
+[style*="color: rgb(233, 30, 99);"] {
+    color: rgb(224, 133, 166) !important
+}
