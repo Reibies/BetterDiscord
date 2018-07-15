@@ -1,9 +1,10 @@
 //META{"name":"Compact Compartmentilization","description":"Minimizes and simplifies much of the theme, parts expand on hover","author":"Reimoo","version":"1"}*//{}
-@import url(https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/CC-Files/Members.css);
-@import url(https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/CC-Files/Channels.css);
+@import url(https://rawgit.com/Moo-stly/BetterDiscord/master/CC-Files/Members.css);
+@import url(https://rawgit.com/Moo-stly/BetterDiscord/master/CC-Files/Channels.css);
 
-:root{
-  --rs-spacing: 1px!important;
+
+:root {
+    --rs-spacing: 1px!important;
     --rs-width: 2px!important;
     --rs-popout-spacing: 10px!important;
     --rs-popout-width: 20px!important;
