@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //META{"name":"Memberlist","description":"Memberlist changes","author":"Satoru","version":"1"}*//{}
 
 
@@ -103,4 +104,111 @@ border-radius: 0rem}
 }
 
 
+=======
+//META{"name":"Memberlist","description":"Memberlist changes","author":"Satoru","version":"1"}*//{}
+
+
+/*size*/
+.membersWrap-2h-GB4 {
+	width: 85px;
+	min-width:unset;
+	transition:.45s}
+.membersWrap-2h-GB4:hover {
+	width:240px}
+.membersWrap-2h-GB4 .members-1998pB {
+	width:240px;
+	height:calc(100% + 460px);
+	padding-bottom:470px}
+	
+	
+	/*idk*/	
+.membersGroup-v9BXpm{
+	background: rgba(100,100,110,.3);
+	border-radius: .27rem .27rem 0rem 0rem;
+	font-weight: inherit;
+	width:105px; 
+	height: auto;
+	white-space:normal; 
+	text-align:center;
+	transition:.45s;
+	transform:scale(.7) translateX(-20%) perspective(1px);
+	box-sizing: content-box;
+	line-height:14px; 
+	margin:1.5% 1.5%; 
+	padding: 3% 1% 3% 1%;}
+.memberInner-2CPc3V {
+	width:140px;
+	display:none;
+	opacity:1}
+.membersWrap-2h-GB4:hover .memberInner-2CPc3V {
+	display:block}
+.members-1998pB:hover .membersGroup-v9BXpm {
+	transform:scale(1);
+	width:228px
+	}	
+	
+	
+	/*avatars*/
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+	height:36px;
+	margin:0 2px 0 2px;
+	padding: 0 0 0 4px;
+	border-radius: 5px}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+	height: 36px;
+	margin: 0 2px 0 1px;
+border-radius: 0rem}
+.memberInner-2CPc3V {
+	width:140px;
+	display:none
+	}
+.member-3W1lQa {
+	margin:0% 0% 0% 6%}
+.member-3W1lQa:hover {
+	margin:1% 5% 1% 10%
+	}
+	
+	
+.theme-dark .members-1998pB {
+    background-color: #202225;
+	}
+.membersWrap-2h-GB4:not(:hover)  .image-33JSyf, 
+.membersWrap-2h-GB4:not(:hover) .wrapper-2F3Zv8 {
+    border-radius: 10% / 30px;	
+	height:45px;
+	width:45px;
+	background:cover;
+	}
+.membersWrap-2h-GB4:hover  .image-33JSyf, 
+.membersWrap-2h-GB4:hover .wrapper-2F3Zv8 {
+    border-radius: 100px;
+	}
+	
+.membersWrap-2h-GB4:not(:hover) .memberOffline-2lN7gt, 
+.membersWrap-2h-GB4:not(:hover) .memberOnline-1CIh-0{
+		height:50px;
+		margin-bottom:5px
+	}
+	
+	
+	/*renamer and bot tags below name*/
+	.channel-members .member .member-username {
+    flex-wrap: wrap;
+}
+
+.channel-members .member .member-username-inner {
+    flex-basis:100%;
+}
+
+.channel-members .renamer-tag {
+    margin-left: 0;
+}
+
+.membersWrap-2h-GB4:not(:hover) [class*="memberOffline"] {
+	
+}
+
+
+>>>>>>> c52c72b370a5dec08a13605f5b4006116f262a3e
 	
