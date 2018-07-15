@@ -1,6 +1,18 @@
 //META{"name":"Compact Compartmentilization","description":"Minimizes and simplifies much of the theme, parts expand on hover","author":"Reimoo","version":"1"}*//{}
+@import url(https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/CC-Files/Members.css);
+@import url(https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/CC-Files/Channels.css);
 
-@import url();
-@import url();
-@import url();
-@import url();
+:root{
+  --rs-spacing: 1px!important;
+    --rs-width: 2px!important;
+    --rs-popout-spacing: 10px!important;
+    --rs-popout-width: 20px!important;
+    --rs-profile-spacing: 3px!important;
+    --rs-profile-width: 4px!important;
+    --rs-online-color: #64846b!important;
+    --rs-idle-color: #bf944c!important;
+    --rs-dnd-color: #9a3636!important;
+    --rs-offline-color: #202225!important;
+    --rs-invisible-color: #36393e!important;
+    --rs-streaming-color: #5f5175!important;
+}
