@@ -1,6 +1,7 @@
 //META{"name":"Compact Compartmentilization","description":"Minimizes and simplifies much of the theme, parts expand on hover","author":"Reimoo","version":"1"}*//{}
 @import url(https://rawgit.com/Moo-stly/BetterDiscord/master/themes/CC-Files/Channels.css);
 @import url(https://rawgit.com/Moo-stly/BetterDiscord/master/themes/CC-Files/Members.css);
+@import url(https://rawgit.com/Moo-stly/BetterDiscord/master/themes/Custom%20CSS%20bits.theme.css);
 
 
 :root {
