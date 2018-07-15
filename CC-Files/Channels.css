@@ -1,100 +1,200 @@
-/*see if VC is oocupado*/
+
+		/*GENERAL*/
+.channels-Ie2l6A:not(:hover){
+	width:15px;
+	}	
+.flex-vertical * {
+    transition: all ease-in .37s;
+	}
+.channels-Ie2l6A,
+.container-PNkimc{
+    background-color: #202225;
+	}
+
+	
+		/*//*tabbies*//*/
+	/*see if VC is oocupado*/
 .container-2duXBh,
 .listCollapse-3hmWwX,
 .listDefault-36Sktb {
     padding-right: 8px;
-    border-left: 5px rgba(30,100,30,0.5) solid;
-}
+    border-left: 5px dotted rgba(64, 67, 72, 1);
+	}
 .channels-Ie2l6A:not(:hover) .container-2duXBh,
-.channels-Ie2l6A:not(:hover) .listCollapse-3hmWwX,
-.channels-Ie2l6A:not(:hover) .listDefault-36Sktb {
-    padding-right: 8px;
-    border-left: 15px rgba(30,100,30,0.5) solid;
-}
-
-
+.channels-Ie2l6A:not(:hover) [class*=list] {
+    padding-right: 0px;
+	margin-left:6px;
+    border-left: 10px solid rgba(54, 57, 62, 1);
+	 border-image: linear-gradient(to right, rgb(35, 60, 26) 60% ,transparent 90% ) 1 100%;
+	 box-shadow: 0px 0px 8px 1px rgba(0,0,0,1) 
+	}
+	
+.channels-Ie2l6A:not(:hover)	.avatarDefault-35WC3R, 
+.channels-Ie2l6A:not(:hover)	.avatarSpeaking-1wJCNq{
+		width:0px;
+	    margin-left: -34px;
+	}
+.channels-Ie2l6A:not(:hover)	.avatarSpeaking-1wJCNq {
+    box-shadow: 5px 04px 15px 3px rgb(250,250,0),  inset 0 0 0 0px transparent;
+	overflow:hide;
+	}
+.channels-Ie2l6A:not(:hover)	.avatarDefault-35WC3R {
+    box-shadow: 7px 4px 0px 3px rgba(250,250,0,.01),  inset 0 0 0 0px transparent;
+	}
+	
+	
+	
+	
+	
 /*Unread channel badge*/
 .channels-Ie2l6A:not(:hover) .unread-1Dp-OI{
 border-radius:0px;
-height: 55px;
-top:0%;
-width:15px;
-background-color: hsla(49, 100%, 83%, 0.80)
-}
+height: 30px!important;
+top:-5%;
+width:9px;
+margin-left: 6px!important;
+margin-top: 0px!important;
+background:  linear-gradient(to right, grey 60%, transparent) !important;
+box-shadow: 0px 0px 8px 1px rgba(0,0,0,1) 
+	}
+
 .scroller-2FKFPG{
-	overflow-y:auto}
-
-
-/*BG color*/
-.channels-Ie2l6A,
-.container-PNkimc{
-    background-color: #202225;
-}
-
-
-
-
-.channels-Ie2l6A:not(:hover)  div.container-2Thooq.da-container > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.da-flex.da-horizontal.da-directionRow.da-justifyStart.da-alignStretch.da-noWrap,
-.channels-Ie2l6A:not(:hover) .accountDetails-3k9g4n,
-.channels-Ie2l6A:not(:hover) div[class^=container-] div[class*=container]:first-child,
-.channels-Ie2l6A:not(:hover) .container-1UB9sr,
-.channels-Ie2l6A:not(:hover) .unreadBottom-1px0d1.unread-nWfX3W.container-35XQWE.da-unreadBottom.da-unread.da-container,
-.channels-Ie2l6A:not(:hover) .flexChild-faoVW3.da-flexChild{
-
-    opacity:0!important;
-	background: rgba(0, 0, 0, 0)!important;	
-    background:rgba(0,0,0,.0)!important;
-}
-
-.channels-Ie2l6A:not(:hover) .container-2Thooq .avatar-small,
-.channels-Ie2l6A:not(:hover) .contentSelectedText-3wUhMi, .channels-Ie2l6A:not(:hover) .contentSelectedVoice-1WDIBM{
-background: rgba(0, 0, 0, 0)!important;	}
-
-
-
-
-/*new channels hider*/
-.flex-vertical * {
-    transition: all ease-in .37s
-}
-.channels-Ie2l6A:not(:hover){
-width:15px!important;
-    transition: all ease-in .37s
-}
-.channels-Ie2l6A:hover{
-    width:230px!important;
-	    transition: all ease-in .37s
-}
-.unread-23Kvxk:not(:hover){
-    width:7px;
-    height:10px;
-    border-radius:0px;
-    background-color:#f04747;
-}
-.channels-Ie2l6A:not(:hover) .status{
-    border-radius:0px!important;
-    border-width:15px!important;
-	border-right:0px!important;
-	border-top:0px!important;
-	border-bottom:0px!important;
+	overflow-y:auto
+	}
+	
+/*online status*/
+.channels-Ie2l6A:not(:hover) .status {
+    border-radius:2px!important;
+    border-width:0px 0px 0px 15px!important;
     height:30px!important;
     margin-left:-6px!important;
 }
-.channels-Ie2l6A:not(:hover) .header-1tSljs,
-.channels-Ie2l6A:not(:hover) .contentSelectedText-3j5CXt,
-.channels-Ie2l6A:not(:hover) .button-1aU9q1,
-.channels-Ie2l6A:not(:hover) .accountDetails-15i-_e .username,
-.channels-Ie2l6A:not(:hover) .accountDetails-15i-_e .discriminator{ 
-    opacity:0!important;
-}
-.channels-Ie2l6A:not(:hover) .container-iksrDt .avatar-small { 
-	background: rgba(0, 0, 0, 0)!important;	
-}
-.container-iksrDt{
-    background:rgba(0,0,0,.0)!important;
-}
-.channels-Ie2l6A:hover .container-iksrDt{
-    background:rgba(32,34,37,.3)!important;
-}
+.channels-Ie2l6A:not(:hover) .container-2Thooq .status{
+	box-shadow: -35px 0px 10px 0px  rgba(0,0,0,1);
+	margin-left: -5px !important;
+	overflow: visible;
+	}
 
+/*friends status*/	
+.channels-Ie2l6A:not(:hover) .private-channels [class*="online"]{
+	border-image: linear-gradient(to right, #64846B 15px, transparent 30px) 1 100% !important;
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,1)
+	}
+.channels-Ie2l6A:not(:hover) .private-channels [class*="idle"]{
+	border-image: linear-gradient(to right, #BF944C 15px, transparent  30px) 1 100% !important; 
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,1)
+	}
+.channels-Ie2l6A:not(:hover) .private-channels [class*="dnd"]{
+	border-image: linear-gradient(to right, #9A3636 15px, transparent 30px) 1 100% !important; 
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,1)
+	}
+	
+
+
+		/*//*catagories*//*/
+	/*nya*/
+.iconHovered-2L3-fB,
+[class*=iconDefault]{
+	padding:.5rem .1rem;
+	top:-.44rem;
+	left:0rem;
+	border-right: .2rem  solid rgba(0, 0, 0, .6);
+	border-radius: .2rem 0rem 0rem 0rem;
+	}
+.iconHoveredCollapsed-3caIIZ,
+[class*=iconCollapsed]{
+	padding:.1rem .5rem;
+	top:-.14rem;
+	left:-.3rem;
+	border-bottom: .2rem  solid rgba(0, 0, 0, .6);
+	border-radius: 0rem .2rem 0rem 0rem;
+	}
+div[class^=container-] div[class*=wrapper] >  div[class*=flex] div [class*=icon]{
+	padding:.30rem .1rem;
+	margin-top: -.44rem;
+	margin-right: -.5rem;
+	border-left: .2rem solid rgba(0, 0, 0, .6);
+	border-radius: 0rem .2rem 0rem 0rem;
+	}
+div[class^=container-] div[class*=wrapper] >  div[class*=flex] div [class*=icon],
+div[class^=container-] div[class*=wrapper] >  [class*=icon]{
+	color: black;
+	fill: black;
+	opacity: .70;
+	background: rgba(250, 250, 250, .2);
+	}
+div[class^=container-] div[class*=wrapper]:hover >  div[class*=flex] div [class*=icon],
+div[class^=container-] div[class*=wrapper]:hover >  [class*=icon]{
+	opacity: 1;
+	}
+	
+	
+.scrollerWrap-2lJEkd div[class^=container-] {
+	border: 7px solid rgba(31, 33, 37,1);
+	border-radius:.67rem;
+	background:  linear-gradient(
+		rgba(54, 57, 63, 1),
+		rgba(54, 57, 63, 1)28px,
+		rgba(45, 46, 49, 1) 28px, 
+		rgba(31, 33, 37,1));
+		transition:all .34s ease
+	}
+.scrollerWrap-2lJEkd div[class^=container-]:hover {
+	background:  linear-gradient(
+		rgba(64, 67, 73, 1),
+		rgba(64, 67, 73, 1)28px,
+		rgba(50, 50, 50, .5) 28px, 
+		rgba(45, 46, 49, 1) 34px, 
+		rgba(31, 33, 37,1));
+	}
+div[class^=container-] div[class*=wrapper] > div[class*=name]:before, div[class^=container-] div[class*=wrapper] > div[class*=name]:after {
+  content: "";
+  width: 100%;
+  vertical-align: middle;
+  height: 0px;
+  background: #eee;
+  display: inline-block;
+  margin: 0 5px;
+	}
+div[class^=container-] div[class*=container]:first-child {
+  padding: 7.5px 0px;
+	}
+div[class^=container-] div[class*=wrapper] >  div[class*=name]{
+  text-align: center;
+  margin-top:-.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+   opacity:1;
+  color: rgba(250,250,250,) ;
+  border-radius: 0px 10px 0px 0px;
+  transition: .37s opacity ease-in-out;
+	}
+
+/*Hiden invisbilize*/
+.channels-Ie2l6A:not(:hover) header,
+.channels-Ie2l6A:not(:hover) .channel-name,
+.channels-Ie2l6A:not(:hover) .private-channels .search-bar,
+.channels-Ie2l6A:not(:hover) .button-2b6hmh,
+.channels-Ie2l6A:not(:hover) div[class*=accountDetails],
+.channels-Ie2l6A:not(:hover) .container-1UB9sr,
+.channels-Ie2l6A:not(:hover) .header-2o-2hj,
+.channels-Ie2l6A:not(:hover)  [class*=icon]{
+    opacity:0!important;
+	background: rgba(0, 0, 0, 0)!important;	
+    background:rgba(0,0,0,.0)!important;
+	}
+ .header-2o-2hj,
+ .channels-Ie2l6A:not(:hover) .channel.selected a,
+.channels-Ie2l6A:not(:hover) .header-2o-2hj,
+.channels-Ie2l6A:not(:hover) .avatar-small,
+.channels-Ie2l6A:not(:hover) .scrollerWrap-2lJEkd div[class^=container-],
+.channels-Ie2l6A:not(:hover) div[class*=contentSelected],
+.channels-Ie2l6A:not(:hover)  [class*=icon]{
+	background: rgba(0, 0, 0, 0)!important;
+	border: 0px solid rgba(0, 0, 0,0)!important;
+	border-radius:0px;
+	}
+	
 
