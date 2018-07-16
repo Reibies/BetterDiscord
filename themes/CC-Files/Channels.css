@@ -146,6 +146,7 @@ div[class^=container-] div[class*=wrapper]:hover >  [class*=icon]{
 		rgba(50, 50, 50, .5) 28px, 
 		rgba(45, 46, 49, 1) 34px, 
 		rgba(31, 33, 37,1));
+	background-blend-mode: multiply;
 	}
 div[class^=container-] div[class*=wrapper] > div[class*=name]:before, div[class^=container-] div[class*=wrapper] > div[class*=name]:after {
   content: "";
