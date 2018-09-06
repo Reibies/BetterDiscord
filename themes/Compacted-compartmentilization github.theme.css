@@ -1,5 +1,8 @@
 //META{"name":".Compact Compartmentilization","description":"Minimizes and simplifies much of the theme, parts expand on hover","author":"Reimoo","version":"1"}*//{}
 
+
+@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css);
+
 :root {
     /*radial status*/
     --rs-spacing: 1px!important;
