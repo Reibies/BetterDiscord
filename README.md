@@ -1,10 +1,10 @@
 # BetterDiscord
 ## Themes
 ### Mini theme
-* [Compact compartmentalization](/themes/compact.theme.css) ||100%||
+* [Compact compartmentalization](https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/themes/Compact.theme.css) ||100%||
 
 ### Full Style
-* [Hydre]() ||80% need to reclass some objects||
+* [Hydre](https://raw.githubusercontent.com/Moo-stly/BetterDiscord/master/themes/Hydre.theme.css) ||80% need to reclass some objects||
 
 ## Plugins
 As if
