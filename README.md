@@ -1,7 +1,7 @@
 # BetterDiscord
 ## Themes
 ### Mini theme
-* [Compact compartmentalization]() ||100%||
+* [Compact compartmentalization](/themes/compact.theme.css) ||100%||
 
 ### Full Style
 * [Hydre]() ||80% need to reclass some objects||
