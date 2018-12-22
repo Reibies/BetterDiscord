@@ -36,6 +36,71 @@
 
 
 
+/*titlebar*/
+
+.titleWrapper-1l0xT9 {
+    background: transparent;
+    float: right;
+    width: calc(100% - 80px);
+    padding: 0px;
+    margin-top: -7px;
+    opacity: 0;
+}
+
+.titleWrapper-1l0xT9:hover {
+    opacity: 1;
+}
+
+#app-mount .title-3qD0b- {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+#app-mount .divider-2PMBlV {
+    display: none
+}
+
+.titleWrapper-1l0xT9 .title-CZQTru {
+    max-width: 70px;
+    background: var(--MainBG2color);
+    margin: -13px;
+    border-radius: 0px 0px 4px 0px;
+    height: 30px;
+}
+
+.titleWrapper-1l0xT9:hover .title-CZQTru {
+    background: var(--MainBG2color);
+    padding: 6px 5px 6px 10px;
+    margin-left: -13px;
+    border-radius: 0px 0px 4px 0px;
+    max-width: 50%;
+}
+
+.titleWrapper-1l0xT9 .alignCenter-1dQNNs .noWrap-3jynv6 {
+    background: var(--MainBG2color);
+    padding: 6px 5px 6px 10px;
+    border-radius: 0px 0px 0px 4px;
+    height: 30px;
+    max-width: 10px
+}
+
+.titleWrapper-1l0xT9:hover .alignCenter-1dQNNs .noWrap-3jynv6 {
+    background: var(--MainBG2color);
+    padding: 6px 5px 6px 10px;
+    border-radius: 0px 0px 0px 4px;
+    max-width: 100%
+}
+
+.alignCenter-1dQNNs.noWrap-3jynv6>span:nth-child(7) {
+    display: none
+}
+
+.content-yTz4x3 {
+    margin-top: -30px !important
+}
+
+
+
 /*@channels
 /*GENERAL*/
 .channels-Ie2l6A,
@@ -43,12 +108,13 @@
     background-color: var(--MainBGcolor) !important;
 }
 
-
-
-.channels-Ie2l6A:not(:hover) {
-    width: 15px;
+.channels-Ie2l6A {
+    max-width: 15px;
 }
 
+.channels-Ie2l6A:hover {
+    max-width: 50%
+}
 
 .flex-vertical * {
     transition: all ease-in .37s;
@@ -65,20 +131,15 @@
     border-left: 5px dotted var(--Accent4);
 }
 
+.channels-Ie2l6A:not(:hover) .voiceUserSummaryItem-BDt0rD,
 .channels-Ie2l6A:not(:hover) .container-2duXBh,
 .channels-Ie2l6A:not(:hover) [class*=list] {
     padding: 0px;
-    z-index: 400000 !important;
     margin-left: 3px;
     width: 0px !important;
     border-radius: 4px 0px 0px 4px;
     border-left: 12px solid var(--Accent2);
-    border-image: var(--Accent2);
-    /*
-        border-radius: 10px 0px 0px 10px;
-        border-left: 10px solid var(--tabShadow);
-        border-image: linear-gradient(to right, var(--Accent2) 60% , var(--tabShadow) 90% ) 1 100%;*/
-    box-shadow: -1px 0px 8px 0px var(--tabShadow)
+    box-shadow: -1px 0px 8px 0px var(--tabShadow);
 }
 
 .channels-Ie2l6A:not(:hover) .avatarDefault-35WC3R,
@@ -218,6 +279,7 @@ div[class^=container-] div[class*=wrapper]>div[class*=name] {
 
 
 /*Hiden invisbilize*/
+.channels-Ie2l6A:not(:hover) .xsmall-3afG_L,
 .channels-Ie2l6A:not(:hover) .searchBar-6Kv8R2,
 .channels-Ie2l6A:not(:hover) header,
 .channels-Ie2l6A:not(:hover) .channel-name,
@@ -256,12 +318,9 @@ div[class^=container-] div[class*=wrapper]>div[class*=name] {
 #app-mount .membersGroup-v9BXpm,
 #app-mount .membersGroup-v9BXpm {
     background: var(--titleBG) !important;
-    color: var(--titleTXT) !important;
-    text-shadow:
-        -1px -1px 0 var(--tabShadow),
-        1px -1px 0 var(--tabShadow),
-        -1px 1px 0 var(--tabShadow),
-        1px 1px 0 var(--tabShadow);
+    color: var(--tabShadow) !important;
+    font-weight: bold;
+    font-size: 14px
 }
 
 
@@ -281,22 +340,24 @@ div[class^=container-] div[class*=wrapper]>div[class*=name] {
     padding-bottom: 470px
 }
 
-
-/*idk*/
 .membersGroup-v9BXpm {
-    background: rgba(100, 100, 110, .3);
-    border-radius: .27rem .27rem 0rem 0rem;
-    font-weight: inherit;
+    background: var(--titleBG);
+    border-radius: 5px/50%;
     width: 105px;
     height: auto;
     white-space: normal;
     text-align: center;
     transition: all ease .37s;
-    transform: scale(.7) translateX(-20%) perspective(1px);
+    transform: scale(.7) translateX(-20%);
     box-sizing: content-box;
     line-height: 14px;
-    margin: 1.5% 1.5%;
-    padding: 3% 1% 3% 1%;
+    margin: 1.5%;
+    padding: 3% 1%;
+}
+
+.members-1998pB:hover .membersGroup-v9BXpm {
+    transform: scale(1);
+    width: 228px
 }
 
 .memberInner-2CPc3V {
@@ -307,11 +368,6 @@ div[class^=container-] div[class*=wrapper]>div[class*=name] {
 
 .membersWrap-2h-GB4:hover .memberInner-2CPc3V {
     display: block
-}
-
-.members-1998pB:hover .membersGroup-v9BXpm {
-    transform: scale(1);
-    width: 228px
 }
 
 
